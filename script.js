@@ -18,10 +18,10 @@ input.addEventListener('input', colorChange)
 
 eBtn.style.display = 'none'
 
-const fInput = function (e) {
+const circleChange = function (e) {
     const value = e.target.value + '%'
     circle.style.width = value
     circle.style.height = value
 }
 
-range.addEventListener('input', fInput)
+range.addEventListener('input', circleChange)
